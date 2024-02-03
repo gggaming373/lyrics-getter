@@ -30,7 +30,7 @@ pip install lyricsgenius spotipy googletrans flaskwebgui
 3. Run the script:
 
 ```bash
-python lyrics_translator.py
+python lyrics getter.py
 ```
 
 
