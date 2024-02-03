@@ -45,6 +45,15 @@ python lyrics getter.py
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
+
+
+
+
+
+
+
+
 # Şarkı Sözü Alıcı
 
 Bu Python betiği, şarkı sözlerini çekmek, onları Türkçe'ye çevirmek ve bir Flask web arayüzü kullanarak göstermek için çeşitli API'leri kullanır. Şarkı sözlerini almak için Genius'i ve mevcut parça bilgilerini almak için Spotify'i entegre eder. Ayrıca, kullanıcı girdisine dayalı olarak şarkı sözlerini bulma işlevselliği sunar.
