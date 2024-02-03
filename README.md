@@ -89,10 +89,6 @@ pip install lyricsgenius spotipy googletrans flaskwebgui
 python lyrics_getter.py
 ```
 
-4. Web arayüzüne erişin:
-   - Bir web tarayıcısı açın ve mevcut parça sözlerini görmek için `http://localhost:5000` adresine gidin.
-   - Ayrıca, `http://localhost:5000/enter` adresine giderek şarkı sözlerini manuel olarak arayabilirsiniz.
-
 ## Ek Notlar
 
 - Betik Spotify çalma durumunu dinler. Web arayüzüne erişmeden önce Spotify'in çalıştığını ve bir parça çaldığınızı kontrol edin.
