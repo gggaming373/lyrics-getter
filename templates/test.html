@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{getsong}} ve Turkce Cevirisi</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/test.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+          <img src="{{ url_for('static',filename='img/GETTHESONG.png') }}" alt="" id="logo">
+          <nav>
+            <ul>
+              <li><a href="{{ url_for('index') }}">Get From Spotify</a></li>
+              <li><a href="https://github.com/gggaming373">Github</a></li>
+              <li><a href="{{ url_for('enter') }}">Search</a></li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    
+
+    <div class="maincontainer">
+        <div class="topcontainer">
+            <div class="imagecontainer">
+                <img src="{{getimage}}" alt="" class="imagecontainer">
+            </div>
+            <div class="titlecontainer">
+                {{getsong}}
+            </div>
+            <div class="buttoncontainer">
+                <a href="https://www.google.com/search?q={{getartist}}"><div class="sidebutton">
+                    Artist : {{getartist}}
+                </div></a>
+                <a class="" href=""><div class="sidebutton">
+                    Report A Problem
+                </div></a>
+            </div>
+        </div>
+
+        <div class="midcontainer">
+            <div class="biglyricscontainer">
+                <div class="lyricstitlecontainer">
+                    English
+                </div>
+                <pre class="lyricscontainer">
+                  {{lyrics}}
+                </pre>
+            </div>
+            <div class="biglyricscontainer">
+                <div class="lyricstitlecontainer">
+                    Turkish
+                </div>
+                <pre class="lyricscontainer">{{turkish}}</pre>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+</head>
+<body>
+    <h1>Çalan Bir Şarkı Bulunamadığı İçin Hata Verdi,  </h1>
+    <a href="{{ url_for('index') }}">Eğer Yeniden Denemek İstiyorsanız Buraya Tıklayın</a>
+    <a href="{{ url_for('enter') }}">veya Buraya Tıklayarak Şarkı İsmini Girin</a>
+    
+
+</body>
+</html>

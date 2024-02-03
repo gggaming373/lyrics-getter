@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+/* Resetting default margin and padding */
+* {
+  font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Style for the top bar */
+  .top-bar {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Style for the container inside the top bar */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    font-size: 24px;
+  }
+  
+  /* Style for the navigation menu */
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+.maincontainer{
+    color: white;
+    background-color: #232323;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.topcontainer{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    min-width: 500px;
+
+}
+.imagecontainer{
+  border-bottom-left-radius: 20px;
+    flex-grow: 1;
+    width: 15vw;
+    height: 15vw;
+    box-shadow: 0px 0px 10px white ;
+}
+.titlecontainer{
+    flex-grow: 3;
+    width: 50%;
+    margin-left: 30px;
+    text-align: left; 
+    font-size: 64px;   
+
+}
+.buttoncontainer{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 2;
+}
+
+.sidebutton{
+    box-shadow: 10px 10px white;
+    text-align: center;
+    color: white;
+    background-color: #595959;
+    height: 50px;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+}
+
+.midcontainer{
+    
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.biglyricscontainer{
+    width: 48%;
+    
+}
+.lyricstitlecontainer{
+    font-size: 30px;
+}
+.lyricscontainer{
+   text-wrap: wrap;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    font-size: 24px;
+    min-height: 200px;
+    background-color: #595959;
+}
+
+body{
+    background-color: #232323;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+body{
+    background-color: rgb(7, 23, 36);
+}
+div{
+    
+    display: flex; /* Use flexbox to align items horizontally */
+}
+
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: aqua;
+    font-size: 24px;
+    
+    font-family: 'Poppins', sans-serif;
+}
+pre{
+    margin: 10px;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+input{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
