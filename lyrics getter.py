@@ -10,7 +10,7 @@ def translate_to_turkish(text):
     translated_text = translator.translate(text, dest='tr').text
     return translated_text
 
-genius = lyricsgenius.Genius('nO4jf7EpinHU2AOTEY1P92zF_Z4oeQsd6-plG2hwr-J7qlZC83pGp8ZFnn2Pv0dG')
+genius = lyricsgenius.Genius('your_genius_api_token')
 
 # Replace 'your_client_id', 'your_client_secret', and 'your_redirect_uri' with your actual credentials
 scope = "user-read-playback-state"
