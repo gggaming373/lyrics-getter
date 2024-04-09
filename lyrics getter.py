@@ -14,8 +14,8 @@ genius = lyricsgenius.Genius('nO4jf7EpinHU2AOTEY1P92zF_Z4oeQsd6-plG2hwr-J7qlZC83
 
 # Replace 'your_client_id', 'your_client_secret', and 'your_redirect_uri' with your actual credentials
 scope = "user-read-playback-state"
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='f8e428e5f4924fc4bdc8081d59466041',
-                                               client_secret='4b4ac0ff3f434cdbbb37f306a01dbc4c',
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id='your_client_id',
+                                               client_secret='your_client_secret',
                                                redirect_uri='http://localhost:8888/callback',
                                                scope=scope))
 
